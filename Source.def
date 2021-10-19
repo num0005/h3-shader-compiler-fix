@@ -1,0 +1,10 @@
+LIBRARY
+EXPORTS
+	?add_external_parameter@pc_shader_compiler@@YAXPEBD@Z = pc_shader_compiler_imp.?add_external_parameter@pc_shader_compiler@@YAXPEBD@Z  @1
+	?clear_external_parameters@pc_shader_compiler@@YAXXZ = pc_shader_compiler_imp.?clear_external_parameters@pc_shader_compiler@@YAXXZ @2
+	?compile_shader@pc_shader_compiler@@YAJW4e_platform@1@PEBDIPEBUshader_define@@PEAVc_shader_include_handler@@11IPEAPEAVc_shader_buffer@@4@Z = pc_shader_compiler__compile_shader @3
+	?enum_shader_constants@pc_shader_compiler@@YAJW4e_platform@1@PEBXIPEAHPEAPEBUshader_constant@@@Z= pc_shader_compiler__enum_shader_constants @4
+	?get_constant_buffer_size@pc_shader_compiler@@YAJW4e_platform@1@PEBXIPEBDPEAI@Z = pc_shader_compiler__get_constant_buffer_size @5
+	?init@pc_shader_compiler@@YA_NXZ=pc_shader_compiler_imp.?init@pc_shader_compiler@@YA_NXZ @6
+	?release_shader_constants@pc_shader_compiler@@YAXHPEBUshader_constant@@@Z= pc_shader_compiler_imp.?release_shader_constants@pc_shader_compiler@@YAXHPEBUshader_constant@@@Z
+	?set_pdb_path@pc_shader_compiler@@YAXPEBD@Z=pc_shader_compiler_imp.?set_pdb_path@pc_shader_compiler@@YAXPEBD@Z @8
